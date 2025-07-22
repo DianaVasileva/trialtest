@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trial test</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="rating">
+    <div class="rating__wrap">
+      <div class="rating__container head-container">
+          <h1 class="rating__title">
+            <span class="rating-desc">Топ</span><span class="rating-mob">Рейтинг</span> букмекерских контор
+          </h1> 
+          <svg width="4" height="17" viewBox="0 0 4 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2 4.79809C3.1 4.79809 4 3.90242 4 2.80771C4 1.713 3.1 0.817322 2 0.817322C0.9 0.817322 0 1.713 0 2.80771C0 3.90242 0.9 4.79809 2 4.79809Z" fill="#262F56"/>
+            <path d="M2 6.78848C0.9 6.78848 0 7.68415 0 8.77886C0 9.87357 0.9 10.7692 2 10.7692C3.1 10.7692 4 9.87357 4 8.77886C4 7.68415 3.1 6.78848 2 6.78848Z" fill="#262F56"/>
+            <path d="M0 14.75C0 13.6553 0.9 12.7596 2 12.7596C3.1 12.7596 4 13.6553 4 14.75C4 15.8447 3.1 16.7404 2 16.7404C0.9 16.7404 0 15.8447 0 14.75Z" fill="#262F56"/>
+          </svg>          
+      </div>
+      <div class="tab" id="tab-1">
+        <div class="rating__container tab-container">
+          <div class="tab-nav">
+            <button type="button" class="tab-btn active" data-target-id="0" data-tab="user">Народный рейтинг</button>
+            <button type="button" class="tab-btn" data-target-id="1" data-tab="editors">Рейтинг редакции</button>
+            <button type="button" class="tab-btn" data-target-id="2" data-tab="bonus">Рейтинг по бонусу</button>
+            <button type="button" class="tab-btn" data-target-id="3" data-tab="reliability">Рейтинг по надежности</button>
+          </div>
+        </div>
+        <div class="rating__container" id="rating-list">
+        </div>
+      </div>
+      <div class="rating__container foot">
+        <a href="#" class="rating__next rating-desc">Смотреть дальше 
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 7L12.17 7L8.59 10.59L10 12L16 6L10 0L8.59 1.41L12.17 5L1.74846e-07 5L0 7Z" fill="#262F56"/>
+          </svg>
+        </a>
+        <a href="#" class="rating__faq rating-desc">Как формируется рейтинг?</a>
+        <a href="#" class="rating__btn rating-mob">СМОТРЕТЬ ПОЛНЫЙ РЕЙТИНГ</a>
+      </div>
+    </div>
+  </section>
+<script src="script.js"></script>
+</body>
+</html>
